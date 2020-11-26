@@ -1,0 +1,25 @@
+export default {
+  BASE_COLOR: '#6c5ce7',
+  SUB_COLOR: '#FC427B',
+  BASE_URL: 'http://doc-89.com:28000/',
+  PAYPAL_URL: 'http://doc-89.com:28888',
+  // BASE_URL: 'http://192.168.1.126:28000/',
+  // PAYPAL_URL: 'http://192.168.1.126:28888',
+  COLOR: {
+    BASE_COLOR: '#6c5ce7',
+    SUB_COLOR: '#FC427B',
+  },
+  DEFAULT_AVATAR: require('../../assets/images/user.png'),
+  ALPHA_API_KEY: '&apikey=A6DTOLY8QU373VV1',
+  ALPHA_BASE_URL:
+    'https://www.alphavantage.co/query?function=CURRENCY_EXCHANGE_RATE&from_currency=',
+  ALPHA_MID_URL: '&to_currency=usd',
+  CURRENCY_RATE_URL: 'https://api.exchangeratesapi.io/latest?base=USD',
+  GET_WALLET_INFO: 'api/v4/wallet/get-wallet-info',
+  SET_TRANSFER: 'api/v4/transfer/save-transfer',
+  SET_EXCHANGE: 'api/v4/transfer/exchange',
+  GET_TRANSFER_HISTORY: 'api/v4/wallet/get-history',
+  CHARGE_WALLET: 'api/v4/wallet/charge-wallet',
+  GET_MESSAGE: 'api/v4/message/get-message',
+  SAVE_MESSAGE: 'api/v4/message/save-message',
+};
